@@ -4,7 +4,7 @@ from django.views.generic import ListView
 # Create your views here.
 class MainView(ListView):
 
-    template_name                       = 'layout/index.html'
+    template_name                       = 'layout/main.html'
     context_object_name                 = 'data'
 
     def get_queryset(self):
