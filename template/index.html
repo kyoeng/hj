@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>(주)형제철강레이저 {% block title %}{% endblock %}</title>
     {% load static %}
+    <link rel="stylesheet" href="{% static 'css/init.css' %}">
     <link rel="stylesheet" href="{% static 'css/header.css' %}">
     <link rel="stylesheet" href="{% static 'css/footer.css' %}">
   </head>
   <body>
       <header class="header">
         <div class="header-wrap">  
-          <a class="logo">로고</a>
+          <a class="logo" href="/">로고</a>
           <nav class="nav">
               <div>
                   <ul class="menu-list">
-                      <li>회사소개</li>
-                      <li>절곡</li>
-                      <li>레이저</li>
-                      <li>벤딩</li>
-                      <li>오시는길</li>
+                      <li><a href="/intro/">회사소개</a></li>
+                      <li><a href="/intro/">절곡</a></li>
+                      <li><a href="/intro/">레이저</a></li>
+                      <li><a href="/intro/">벤딩</a></li>
+                      <li><a href="/intro/">오시는길</a></li>
                   </ul>
               </div>
           </nav>
